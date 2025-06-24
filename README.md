@@ -69,23 +69,34 @@ streamlit run frontend/streamlit_app.py
 ---
 
 💡 Features
+
 📌 Complaint Registration via FSM Chatbot Flow
+
 📌 Complaint Retrieval with MongoDB Storage
+
 📌 FAISS-based PDF Knowledge Base Retrieval
+
 📌 Seamless API + UI Integration
+
 📌 Handles RAG + CRUD API from a single chatbot flow
 
 ---
 
 📚 Example Usage
 1. Complaint Registration:
+   
    User: I want to register a complaint
+   
    Bot: Please provide your name.
+   
    User: John Doe
+   
    Bot: Provide your phone number...
 
-2. Complaint Status Retrieval:
+3. Complaint Status Retrieval:
+   
    User: What is the status of my complaint CMP123456?
+   
    Bot: [Returns DB data] + [Relevant info from PDF Knowledge Base]
 
 
