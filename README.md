@@ -45,7 +45,9 @@ RAG-Complaint-Chatbot/
 
 ## ⚙️ Setup Instructions
 
-### 1️⃣ Clone Repository
+### Setup
+
+###1️⃣ Clone Repository
 ```bash
 git clone <your-repo-url>
 cd RAG-Complaint-Chatbot
