@@ -45,10 +45,7 @@ RAG-Complaint-Chatbot/
 
 ## ⚙️ Setup Instructions
 
-### Setup
-
-###1️⃣ Clone Repository
-```bash
+### 1️⃣ Clone Repository
 git clone <your-repo-url>
 cd RAG-Complaint-Chatbot
 
@@ -59,14 +56,36 @@ conda activate ragapp
 ### 3️⃣ Install Dependencies
 pip install -r requirements.txt
 
-4️⃣ Set Environment Variables (.env)
+### 4️⃣ Set Environment Variables (.env)
 OPENAI_API_KEY=your_openai_api_key
 MONGO_URI=your_mongo_uri
 
-5️⃣ Run FastAPI Backend
+### 5️⃣ Run FastAPI Backend
 uvicorn app.main:app --reload
 
-6️⃣ Run Streamlit Frontend
+### 6️⃣ Run Streamlit Frontend
 streamlit run frontend/streamlit_app.py
 
 ---
+
+💡 Features
+📌 Complaint Registration via FSM Chatbot Flow
+📌 Complaint Retrieval with MongoDB Storage
+📌 FAISS-based PDF Knowledge Base Retrieval
+📌 Seamless API + UI Integration
+📌 Handles RAG + CRUD API from a single chatbot flow
+
+---
+
+📚 Example Usage
+1. Complaint Registration:
+   User: I want to register a complaint
+   Bot: Please provide your name.
+   User: John Doe
+   Bot: Provide your phone number...
+
+2. Complaint Status Retrieval:
+   User: What is the status of my complaint CMP123456?
+   Bot: [Returns DB data] + [Relevant info from PDF Knowledge Base]
+
+
